@@ -1,0 +1,3 @@
+outcome,opengwas_id,candidate_union_with_outcome_effects,mvmr_retained_complete_rows,excluded_rows,proxy_outcome_rows_retained,n_snps,conditional_F_BMI_gencov0,conditional_F_smoking_initiation_gencov0,note
+Other intervertebral disc disorders / intervertebral disc degeneration,finn-b-M13_INTERVERTEB,565,530,35,8,530,29.538983598755557,6.968444964912017,MVMR strength_mvmr-style conditional F with SNP-exposure covariance fixed at zero because covariance matrices are unavailable.
+Spinal stenosis,finn-b-M13_SPINSTENOSIS,565,530,35,8,530,29.538983598755557,6.968444964912017,MVMR strength_mvmr-style conditional F with SNP-exposure covariance fixed at zero because covariance matrices are unavailable.

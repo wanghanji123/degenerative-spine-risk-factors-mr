@@ -1,0 +1,3 @@
+dataset,sex,raw_file,formatted_file,rows_written,p_lt_5e_minus_8_candidates,minimum_p,note
+GIANT_BMI_men_2015,male,raw\GIANT_BMI_men_2015.tbl.uniq.gz,processed\GIANT_BMI_men_2015.formatted_exposure.tsv.gz,2477630,836,4.11e-94,Formatted exposure file only. Clumping and sex-specific outcome harmonisation still require suitable outcome data.
+GIANT_BMI_women_2015,female,raw\GIANT_BMI_women_2015.tbl.uniq.gz,processed\GIANT_BMI_women_2015.formatted_exposure.tsv.gz,2494584,1129,4.866e-86,Formatted exposure file only. Clumping and sex-specific outcome harmonisation still require suitable outcome data.

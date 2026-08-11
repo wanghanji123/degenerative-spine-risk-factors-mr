@@ -1,0 +1,5 @@
+﻿pair_id,exposure,outcome,opengwas_id,status,n_snps,global_p,outlier_n,distortion_p,seed,nb_distribution,input_sha256,interpretation
+BMI_IVDD,BMI,Intervertebral disc disorders,finn-b-M13_INTERVERTEB,ok,480,0.002,0,0.962,20260728,500,1d98561b26701f0ed16a1f78a484d0f9689304b28501a06b26c60e8b997614be,Auxiliary pleiotropy sensitivity analysis; not primary causal evidence.
+BMI_STENOSIS,BMI,Spinal stenosis,finn-b-M13_SPINSTENOSIS,ok,480,0.002,0,0.608,20260729,500,4bf349c8facad34658793bf31436380c3cf4fa803e96c4f8af76a34e5a106af3,Auxiliary pleiotropy sensitivity analysis; not primary causal evidence.
+SMOKING_IVDD,Smoking initiation,Intervertebral disc disorders,finn-b-M13_INTERVERTEB,ok,85,0.004,0,0.632,20260730,500,00f75413f1818e41f0a69c5e8aea79bc70d3f06c4c66468e80f756dda5ecaa48,Auxiliary pleiotropy sensitivity analysis; not primary causal evidence.
+SMOKING_STENOSIS,Smoking initiation,Spinal stenosis,finn-b-M13_SPINSTENOSIS,ok,85,0.002,0,0.848,20260731,500,8aa56e154ec13199ec571d19d1b27253e1b18d20d41494de4d2d213bd24b208b,Auxiliary pleiotropy sensitivity analysis; not primary causal evidence.

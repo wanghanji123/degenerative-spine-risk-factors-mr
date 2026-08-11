@@ -1,0 +1,5 @@
+﻿pair_id,warning
+BMI_IVDD,Outlier test unstable. The significance threshold of 0.05 for the outlier test is not achievable with only 500 to compute the null distribution. The current precision is <0.96. Increase NbDistribution.
+BMI_STENOSIS,Outlier test unstable. The significance threshold of 0.05 for the outlier test is not achievable with only 500 to compute the null distribution. The current precision is <0.96. Increase NbDistribution.
+SMOKING_IVDD,Outlier test unstable. The significance threshold of 0.05 for the outlier test is not achievable with only 500 to compute the null distribution. The current precision is <0.17. Increase NbDistribution.
+SMOKING_STENOSIS,Outlier test unstable. The significance threshold of 0.05 for the outlier test is not achievable with only 500 to compute the null distribution. The current precision is <0.17. Increase NbDistribution.

@@ -1,0 +1,11 @@
+{
+  "pair_count": 4,
+  "all_status_ok": true,
+  "all_global_tests_significant_at_0_05": true,
+  "all_outlier_counts_zero": true,
+  "stderr_logs_empty": true,
+  "supplementary_table_sha256": {
+    "Supplementary_Table_S25_independent_MRPRESSO_input_manifest.csv": "e10b6c6ab5c0c490d1d68e2e53bcb04cee3866aeadc175df90164d0aa19649de",
+    "Supplementary_Table_S26_independent_MRPRESSO_rerun_comparison.csv": "7e6ffb5505db72b78131c7f0576ab15515e6ba77ce9e211ca694e68cd740d177"
+  }
+}

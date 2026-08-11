@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-07-28T13:37:14.370761+00:00",
+  "python": "3.12.13",
+  "rho_grid": [
+    -0.9,
+    -0.75,
+    -0.5,
+    -0.25,
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+  ],
+  "model": "Constant cross-exposure estimation-error correlation stress test",
+  "scope": "Assesses sensitivity of conditional F statistics to assumed SNP-exposure covariance. Does not estimate exact covariance or participant overlap.",
+  "ranges": {
+    "Intervertebral disc disorders | BMI": {
+      "minimum_conditional_F": 15.577391909535075,
+      "maximum_conditional_F": 285.022218056947,
+      "all_above_10": true
+    },
+    "Intervertebral disc disorders | Smoking initiation": {
+      "minimum_conditional_F": 5.78961075503938,
+      "maximum_conditional_F": 8.75100957505252,
+      "all_above_10": false
+    },
+    "Spinal stenosis | BMI": {
+      "minimum_conditional_F": 15.577391909535075,
+      "maximum_conditional_F": 285.022218056947,
+      "all_above_10": true
+    },
+    "Spinal stenosis | Smoking initiation": {
+      "minimum_conditional_F": 5.78961075503938,
+      "maximum_conditional_F": 8.75100957505252,
+      "all_above_10": false
+    }
+  },
+  "result_sha256": "f6487010725309b1dbf4f098e3c08aadd2e3cd2a94dd3e013ba41ca66e3edc93",
+  "input_manifest_sha256": "335102febed4bab46e8905e7adb1eada7899d859579e21549e2629002d1cd095"
+}

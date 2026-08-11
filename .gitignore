@@ -1,0 +1,41 @@
+# Credentials and local state
+.env
+.env.*
+*.token
+*credentials*
+*secret*
+.Renviron
+.Rhistory
+.RData
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Restricted or provider-controlled data
+raw_data/
+restricted_data/
+private_data/
+**/inputs/
+**/*original_harmonised*
+**/*analysis_ready*
+**/*harmonised*.csv
+**/*harmonized*.csv
+*.rds
+
+# Local rerun output
+local_results/
+tmp/
+temp/
+
+# Manuscript and office artifacts
+*.docx
+*.doc
+~$*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
