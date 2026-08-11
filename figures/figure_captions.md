@@ -18,7 +18,7 @@ Evidence triangulation across primary and sensitivity analyses. Each row links t
 
 ## Figure 5
 
-Conceptual pathways linking adiposity and smoking liability to degenerative spine outcomes. Solid arrows indicate biologically plausible pathways, whereas dashed arrows indicate indirect or uncertain pathways. The schematic does not represent a mediation analysis.
+Conceptual pathways linking adiposity and smoking liability to degenerative spine outcomes. Solid arrows indicate biologically plausible pathways, whereas dashed arrows indicate indirect or uncertain pathways. The schematic does not represent a mediation analysis. A non-data-bearing illustrative background was generated with OpenAI GPT Image 2 and combined with author-directed, code-rendered labels and arrows; all scientific content was reviewed by the authors.
 
 ## Figure 6
 
@@ -26,7 +26,7 @@ Sensitivity assessment of the four primary exposure-outcome pairs. Status marker
 
 ## Figure 7
 
-Integrated interpretation of the endpoint-hierarchy MR evidence. Registry-based outcomes anchor the primary interpretation, whereas symptom and systemic outcomes define its boundaries. The schematic does not represent a mediation model.
+Integrated interpretation of the endpoint-hierarchy MR evidence. Registry-based outcomes anchor the primary interpretation, whereas symptom and systemic outcomes define its boundaries. The schematic does not represent a mediation model. A non-data-bearing illustrative background was generated with OpenAI GPT Image 2 and combined with author-directed, code-rendered labels and arrows; all scientific content was reviewed by the authors.
 
 ## Figure 8
 

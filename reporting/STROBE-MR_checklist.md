@@ -1,6 +1,6 @@
-# STROBE-MR Checklist Working File - Review3.9
+# STROBE-MR Checklist Working File - Review4.0
 
-Date: 2026-07-28
+Date: 2026-08-11
 
 Source: STROBE-MR checklist of recommended items to address in reports of
 Mendelian randomization studies [Skrivankova2021STROBEMR].
@@ -21,7 +21,7 @@ Status labels:
 | 6 | Methods | Variant handling, estimators, missing data, multiplicity | Instrument selection and MR analyses | Complete | None |
 | 7 | Methods | Methods/prior knowledge used to assess assumptions | Sensitivity analyses | Complete | None |
 | 8 | Methods | Sensitivity/additional analyses | Methods; Supplementary Tables S10-S28 | Complete | None |
-| 9 | Methods | Software versions and protocol/pre-registration | Software and reproducibility; Additional file 3 | Partial | Primary/sensitivity versions and new reruns are documented; add a protocol statement if applicable |
+| 9 | Methods | Software versions and protocol/pre-registration | Software and reproducibility; Additional file 3 | Partial | Software and rerun versions are documented; retain the explicit statement that the endpoint hierarchy was not preregistered |
 | 10 | Results | Descriptive data, sample sizes, overlap, exposure/outcome sources | Tables 1 and 4; Supplementary Tables S1-S2, S12, S17-S18, S28 | Complete | Exact participant intersections were not publicly reported and are labeled non-identifiable |
 | 11 | Results | Main MR estimates and uncertainty on interpretable scale | Results; Table 2; Figure 2 | Complete | Target-journal styling only |
 | 12 | Results | Assessment of assumptions, heterogeneity, instrument strength | Table 3; Supplementary Tables S4-S5, S14, S21, S25-S27 | Complete | None |
@@ -31,7 +31,7 @@ Status labels:
 | 16 | Discussion | Meaning, mechanisms, clinical relevance | Biological and clinical interpretation | Complete | Avoid intervention-effect overclaim |
 | 17 | Discussion | Generalizability | Limitations and conclusion | Complete | None |
 | 18 | Other | Funding and role of funders | Funding section | Partial | Requires author input |
-| 19 | Other | Data/code sharing and access | Data availability; code availability; reproducibility archive | Partial | Add a verified public repository URL/DOI after author approval |
+| 19 | Other | Data/code sharing and access | Data availability; code availability; public repository and restricted author archive | Complete | Public repository v1.0.1 is verified; archival DOI remains optional until final authorship metadata are available |
 | 20 | Other | Conflicts of interest | Competing interests | Partial | Requires author confirmation |
 
 ## Review3.9 Additions
@@ -45,9 +45,18 @@ Status labels:
 - Clarified that male/female GIANT BMI exposure preparation is complete but authorized matched sex-specific FinnGen outcomes are unavailable; no pooled-outcome proxy was substituted.
 - Updated Figure 12 to display both MVMR estimates and the conditional-F covariance stress test.
 
+## Review4.0 Additions
+
+- Updated Data Availability and Code Availability to the verified public repository.
+- Added a more precise secondary-summary-data ethics statement, subject to submitting-institution confirmation.
+- Added a transparent generative-AI disclosure and Figure 5/Figure 7 caption disclosures.
+- Added target-journal AI-image-policy review as an explicit submission gate.
+
 ## Remaining Submission Tasks
 
 1. Add final page and line numbers after selecting the target journal template.
-2. Confirm author, funding, contribution, and conflict-of-interest statements.
-3. Deposit the approved code/reproducibility package and insert the verified persistent link.
-4. Complete sex-stratified MR only if authorized matched FinnGen male/female outcome files are obtained.
+2. Confirm author list/order, affiliations, ORCID, funding, CRediT contributions, and conflict-of-interest statements.
+3. Confirm with the submitting institution whether secondary analysis of non-identifiable public/provider-controlled summary data requires an exemption or formal determination.
+4. Apply the selected journal's current AI policy; replace the AI-assisted Figure 5/Figure 7 layers if generative-AI illustrations or graphical abstracts are not permitted.
+5. Optionally archive the final public release in Zenodo after authorship metadata are complete.
+6. Complete sex-stratified MR only if authorized matched FinnGen male/female outcome files are obtained; this is not required for the current claims.
