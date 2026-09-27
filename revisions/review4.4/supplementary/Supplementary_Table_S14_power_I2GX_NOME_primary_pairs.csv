@@ -1,0 +1,5 @@
+﻿exposure,outcome_id,I2GX_pct,R2_for_power,cases,controls,alpha,target_power,binary_information_N_k_1_minus_k_R2,MDE_OR_local_Wald,power_status,NOME_note
+BMI,finn-b-M13_INTERVERTEB,91.7966058492101,0.0499492249481442,20001,164682,0.0125,0.8,890.839931106104,1.1183805531418418,Approximate unit-SD BMI model; no observed-effect power interpretation,Same-sign exposure effects; see primary_I2GX_repaired.csv
+BMI,finn-b-M13_SPINSTENOSIS,91.7966058492101,0.0499492249481442,9169,164682,0.0125,0.8,433.8300851454659,1.173891383346468,Approximate unit-SD BMI model; no observed-effect power interpretation,Same-sign exposure effects; see primary_I2GX_repaired.csv
+Smoking initiation,finn-b-M13_INTERVERTEB,40.1688555616743,,20001,164682,0.0125,0.8,,,Not estimated: binary exposure scale unresolved,Same-sign exposure effects; see primary_I2GX_repaired.csv
+Smoking initiation,finn-b-M13_SPINSTENOSIS,40.1688555616743,,9169,164682,0.0125,0.8,,,Not estimated: binary exposure scale unresolved,Same-sign exposure effects; see primary_I2GX_repaired.csv

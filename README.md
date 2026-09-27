@@ -6,11 +6,13 @@ Reproducibility materials for:
 
 ## Overview
 
+**Scientific correction, 27 September 2026:** Use [Review 4.4 corrected aggregate results](revisions/review4.4/README.md) for current interpretation. Historical files outside that directory remain unchanged for provenance and contain superseded values and claims. In particular, do not reuse the old I2GX diagnostics, 530-variant MVMR results, MRlap corrections, sample-overlap boundary calculations, UKB pain odds ratios, or the claim of no MR-PRESSO outliers. This correction is not author approval or a published article.
+
 This repository contains publication-level aggregate results, supplementary tables, figures, reporting materials, and analysis scripts for a two-sample Mendelian randomization (MR) study of body mass index (BMI), smoking-initiation liability, and registry-based degenerative spine outcomes.
 
-The design prioritizes FinnGen intervertebral disc disorders (IVDD) and spinal stenosis as structural registry endpoints. Low back pain, sciatica, a broader pain composite, UK Biobank chronic back pain, and coronary artery disease are used as secondary, sensitivity, exploratory, or specificity endpoints according to a prespecified endpoint hierarchy.
+The design prioritizes FinnGen intervertebral disc disorders (IVDD) and spinal stenosis as registry-coded diagnoses, not uniform imaging-confirmed degeneration. The endpoint hierarchy was not prospectively registered. Symptom outcomes are contextual, and coronary artery disease is a systemic comparison rather than a negative control. UK Biobank chronic-back-pain quantitative estimates are withdrawn because their effect scale was not validated.
 
-The primary findings were directionally consistent positive associations of genetically predicted BMI with IVDD and spinal stenosis. Smoking-initiation liability showed weaker positive evidence and did not retain the same degree of independence or instrument strength in multivariable MR. These genetic-liability estimates are not direct estimates of weight-loss or smoking-cessation interventions.
+The primary IVW associations reproduce. BMI has more consistent sensitivity support than smoking. Revised joint-selection MVMR uses 429 SNPs per outcome; smoking conditional F of 4.24 limits interpretation of both direct effects. These genetic-liability estimates establish neither independent direct effects nor benefits of weight-loss or smoking-cessation interventions.
 
 ## Repository owner
 
@@ -21,6 +23,8 @@ The manuscript author list was not present in the repository-preparation source 
 
 ## Contents
 
+- `revisions/review4.4/`: current aggregate-only correction, four quantitative figures, portable figure builder, validation script and environment records. Start here. The folders listed below are historical unless separately updated.
+
 - `supplementary/`: Supplementary Tables S1-S28, index, and integrity manifest.
 - `figures/`: Figures 1-14 and the caption inventory used in Review4.0.
 - `scripts/`: Portable audit, covariance-sensitivity, figure-generation, and MR-PRESSO rerun scripts.
@@ -30,6 +34,8 @@ The manuscript author list was not present in the repository-preparation source 
 - `docs/`: Data access, reproducibility, limitations, AI/figure provenance, and submission metadata.
 
 ## Reproduction
+
+For the current revision, first run `python revisions/review4.4/scripts/verify_public_revision.py`. Recreate its figures with the requirements and command in the revision README. These portable tasks were tested in a separate copied folder; they do not rerun source-SNP analyses.
 
 The analyses that can be reproduced from shareable aggregate inputs are documented in [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md). The supplementary CSV integrity audit can be run without restricted data:
 
@@ -51,6 +57,8 @@ This repository does not redistribute raw GWAS summary statistics, harmonized SN
 
 ## AI and figure provenance
 
+The four Review 4.4 figures are programmatically drawn from audited results and contain no generative-image layers. The following paragraph describes historical figures only, not the current revision.
+
 Figures 5 and 7 contain non-data-bearing illustration layers initially generated with OpenAI GPT Image 2; all labels, arrows, numerical statements, and caveats were added or verified by the authors. No external published figure or table was reproduced. See [docs/AI_USE_AND_FIGURE_PROVENANCE.md](docs/AI_USE_AND_FIGURE_PROVENANCE.md). Authors must apply the selected journal's current AI-image policy before submission and replace these layers when required.
 
 ## Citation
@@ -59,4 +67,4 @@ Use the metadata in [CITATION.cff](CITATION.cff) to cite this repository. When a
 
 ## Scientific scope
 
-MR-PRESSO was used as an auxiliary sensitivity analysis. The sample-overlap scenario analysis is illustrative rather than a measured pair-specific correction. Exact MVMR SNP-exposure covariance and exact participant-overlap counts were not identifiable from public marginal summary statistics. Matched sex-specific FinnGen outcomes were unavailable, so no sex-stratified causal estimates are reported.
+MR-PRESSO is auxiliary and its archived 500-simulation individual-outlier flags are not reliable confirmatory outlier tests. All historical MRlap corrections and the numerical overlap-scenario analysis have been withdrawn from current inference. Exact MVMR exposure-error covariance and participant-overlap counts remain unknown. Matched authorized sex-specific FinnGen outcomes were unavailable, so no sex-stratified causal estimates are reported. The full source-level repair and manuscript review have remaining author-dependent and data-provenance requirements described in the private handover; this repository does not certify submission readiness.

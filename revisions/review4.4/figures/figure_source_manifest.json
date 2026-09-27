@@ -1,0 +1,12 @@
+{
+  "Figure1": "Design and verified sample/SNP counts",
+  "Figure2": "S3; primary weighted median fixed-seed 5000 bootstrap; Egger t-CI",
+  "Figure3": "S10 full-precision independently recalculated IVW confidence intervals; units differ by exposure",
+  "Figure4": "S19 and S27; exploratory, not independent effects established",
+  "formats": [
+    "PNG 300 dpi",
+    "vector PDF",
+    "editable SVG"
+  ],
+  "image_generation_used": false
+}

@@ -1,0 +1,13 @@
+{
+  "role": "Numerical repair/figure/packaging Python; not the historical R or document-authoring runtime",
+  "python": "3.11.9",
+  "packages": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "pandas": "3.0.3",
+    "matplotlib": "3.10.9",
+    "requests": "2.34.2",
+    "python-docx": "1.2.0",
+    "lxml": "6.0.2"
+  }
+}
