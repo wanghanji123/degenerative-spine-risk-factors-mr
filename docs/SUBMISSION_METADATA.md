@@ -1,6 +1,6 @@
 # Repository metadata for submission
 
-- Article title: Body mass index, smoking liability, and registry-based degenerative spine outcomes: a sample-overlap-aware Mendelian randomization study
+- Article title: Body mass index, smoking liability, and registry-based degenerative spine outcomes: a two-sample Mendelian randomization study
 - Repository owner: `wanghanji123`
 - Repository name: `degenerative-spine-risk-factors-mr`
 - Repository URL: https://github.com/wanghanji123/degenerative-spine-risk-factors-mr

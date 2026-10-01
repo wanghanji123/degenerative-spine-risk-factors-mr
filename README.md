@@ -2,7 +2,7 @@
 
 Reproducibility materials for:
 
-> Body mass index, smoking liability, and registry-based degenerative spine outcomes: a sample-overlap-aware Mendelian randomization study
+> Body mass index, smoking liability, and registry-based degenerative spine outcomes: a two-sample Mendelian randomization study
 
 ## Overview
 

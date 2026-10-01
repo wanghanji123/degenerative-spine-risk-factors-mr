@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite the associated manuscript and this versioned repository."
-title: "Body mass index, smoking liability, and registry-based degenerative spine outcomes: a sample-overlap-aware Mendelian randomization study"
+title: "Body mass index, smoking liability, and registry-based degenerative spine outcomes: a two-sample Mendelian randomization study"
 type: software
 authors:
   - name: "wanghanji123"
